@@ -1,0 +1,26 @@
+---
+hibernate:
+  jdbc:
+    batch_size: 100
+    
+dataSource:
+    pooled: true
+    jmxExport: true
+    driverClassName: org.postgresql.Driver
+    dialect: org.hibernate.spatial.dialect.postgis.PostgisDialect
+    username: postgres
+    password: postgres
+
+environments:
+    development:
+        dataSource:
+            dbCreate: update
+            url: jdbc:postgresql:omardb-${OSSIM_VERSION}-dev
+    test:
+        dataSource:
+            dbCreate: update
+            url: jdbc:postgresql:omardb-test
+    production:
+        dataSource:
+            dbCreate: none
+            url: jdbc:postgresql:omardb-${OSSIM_VERSION}-prod
