@@ -1,5 +1,5 @@
 //==================================================================================================
-// This is the Jenkins pipeline script for building the OMAR services application (formerly all-app).
+// This is the Jenkins pipeline script for building the OMAR cmdln application (formerly all-app).
 // Environment varialbes that MUST be passed in by Jenkins:
 //    OSSIM_GIT_BRANCH: The tag of the branch to be built. Typically dev or master.
 //
