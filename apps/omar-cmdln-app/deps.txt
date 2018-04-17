@@ -1,17 +1,10 @@
 /Users/sbortman/IdeaProjects/omar/omar-cmdln/apps/omar-cmdln-app
-in checkVersionStatus for '/Users/sbortman/IdeaProjects/omar/omar-cmdln/apps/omar-cmdln-app'
 /Users/sbortman/IdeaProjects/omar/omar-core/plugins/omar-core-plugin
-in checkVersionStatus for '/Users/sbortman/IdeaProjects/omar/omar-core/plugins/omar-core-plugin'
 /Users/sbortman/IdeaProjects/omar/omar-raster/plugins/omar-raster-plugin
-in checkVersionStatus for '/Users/sbortman/IdeaProjects/omar/omar-raster/plugins/omar-raster-plugin'
 /Users/sbortman/IdeaProjects/omar/omar-stager/plugins/omar-stager-plugin
-in checkVersionStatus for '/Users/sbortman/IdeaProjects/omar/omar-stager/plugins/omar-stager-plugin'
 /Users/sbortman/IdeaProjects/omar/omar-oms/plugins/omar-oms-plugin
-in checkVersionStatus for '/Users/sbortman/IdeaProjects/omar/omar-oms/plugins/omar-oms-plugin'
 /Users/sbortman/IdeaProjects/omar/omar-hibernate-spatial/plugins/omar-hibernate-spatial-plugin
-in checkVersionStatus for '/Users/sbortman/IdeaProjects/omar/omar-hibernate-spatial/plugins/omar-hibernate-spatial-plugin'
 /Users/sbortman/IdeaProjects/omar/omar-video/plugins/omar-video-plugin
-in checkVersionStatus for '/Users/sbortman/IdeaProjects/omar/omar-video/plugins/omar-video-plugin'
 
 ------------------------------------------------------------
 Project :omar-cmdln-app
@@ -569,15 +562,7 @@ compile - Dependencies for source set 'main' (deprecated, use 'implementation ' 
 +--- org.springframework.boot:spring-boot-starter-logging -> 1.5.8.RELEASE (*)
 +--- org.springframework.boot:spring-boot-autoconfigure -> 1.5.8.RELEASE (*)
 +--- org.grails:grails-core -> 3.3.2 (*)
-+--- org.grails:grails-web-boot -> 3.3.2 (*)
-+--- org.grails:grails-logging -> 3.3.2 (*)
-+--- org.grails:grails-plugin-rest -> 3.3.2 (*)
-+--- org.grails:grails-plugin-databinding -> 3.3.2 (*)
-+--- org.grails:grails-plugin-i18n -> 3.3.2 (*)
 +--- org.grails:grails-plugin-services -> 3.3.2 (*)
-+--- org.grails.plugins:cache -> 4.0.0 (*)
-+--- org.grails.plugins:async -> 3.3.2 (*)
-+--- org.grails.plugins:events -> 3.3.2 (*)
 +--- org.grails.plugins:hibernate5 -> 6.1.8
 |    +--- org.hibernate:hibernate-core:5.1.9.Final -> 5.1.5.Final (*)
 |    +--- org.grails:grails-datastore-web:6.1.8.RELEASE
@@ -603,7 +588,8 @@ compile - Dependencies for source set 'main' (deprecated, use 'implementation ' 
 |    |    +--- org.hibernate:hibernate-validator:5.2.5.Final -> 5.3.5.Final (*)
 |    |    \--- javax.el:javax.el-api:2.2.4
 |    \--- org.springframework:spring-orm:4.2.3.RELEASE -> 4.3.12.RELEASE (*)
-\--- org.hibernate:hibernate-core:5.1.5.Final (*)
++--- org.hibernate:hibernate-core:5.1.5.Final (*)
+\--- org.grails:grails-validation:3.3.2 (*)
 
 compileClasspath - Compile classpath for source set 'main'.
 +--- project :omar-core-plugin
@@ -1136,15 +1122,7 @@ compileClasspath - Compile classpath for source set 'main'.
 +--- org.springframework.boot:spring-boot-starter-logging -> 1.5.8.RELEASE (*)
 +--- org.springframework.boot:spring-boot-autoconfigure -> 1.5.8.RELEASE (*)
 +--- org.grails:grails-core -> 3.3.2 (*)
-+--- org.grails:grails-web-boot -> 3.3.2 (*)
-+--- org.grails:grails-logging -> 3.3.2 (*)
-+--- org.grails:grails-plugin-rest -> 3.3.2 (*)
-+--- org.grails:grails-plugin-databinding -> 3.3.2 (*)
-+--- org.grails:grails-plugin-i18n -> 3.3.2 (*)
 +--- org.grails:grails-plugin-services -> 3.3.2 (*)
-+--- org.grails.plugins:cache -> 4.0.0 (*)
-+--- org.grails.plugins:async -> 3.3.2 (*)
-+--- org.grails.plugins:events -> 3.3.2 (*)
 +--- org.grails.plugins:hibernate5 -> 6.1.8
 |    +--- org.hibernate:hibernate-core:5.1.9.Final -> 5.1.5.Final (*)
 |    +--- org.grails:grails-datastore-web:6.1.8.RELEASE
@@ -1170,7 +1148,8 @@ compileClasspath - Compile classpath for source set 'main'.
 |    |    +--- org.hibernate:hibernate-validator:5.2.5.Final -> 5.3.5.Final (*)
 |    |    \--- javax.el:javax.el-api:2.2.4
 |    \--- org.springframework:spring-orm:4.2.3.RELEASE -> 4.3.12.RELEASE (*)
-\--- org.hibernate:hibernate-core:5.1.5.Final (*)
++--- org.hibernate:hibernate-core:5.1.5.Final (*)
+\--- org.grails:grails-validation:3.3.2 (*)
 
 compileOnly - Compile only dependencies for source set 'main'.
 No dependencies
@@ -1784,15 +1763,7 @@ default - Configuration for default artifacts.
 +--- org.springframework.boot:spring-boot-starter-logging -> 1.5.8.RELEASE (*)
 +--- org.springframework.boot:spring-boot-autoconfigure -> 1.5.8.RELEASE (*)
 +--- org.grails:grails-core -> 3.3.2 (*)
-+--- org.grails:grails-web-boot -> 3.3.2 (*)
-+--- org.grails:grails-logging -> 3.3.2 (*)
-+--- org.grails:grails-plugin-rest -> 3.3.2 (*)
-+--- org.grails:grails-plugin-databinding -> 3.3.2 (*)
-+--- org.grails:grails-plugin-i18n -> 3.3.2 (*)
 +--- org.grails:grails-plugin-services -> 3.3.2 (*)
-+--- org.grails.plugins:cache -> 4.0.0 (*)
-+--- org.grails.plugins:async -> 3.3.2 (*)
-+--- org.grails.plugins:events -> 3.3.2 (*)
 +--- org.grails.plugins:hibernate5 -> 6.1.8
 |    +--- org.hibernate:hibernate-core:5.1.9.Final -> 5.1.5.Final (*)
 |    +--- org.grails:grails-datastore-web:6.1.8.RELEASE
@@ -1819,7 +1790,10 @@ default - Configuration for default artifacts.
 |    |    \--- javax.el:javax.el-api:2.2.4
 |    \--- org.springframework:spring-orm:4.2.3.RELEASE -> 4.3.12.RELEASE (*)
 +--- org.hibernate:hibernate-core:5.1.5.Final (*)
-\--- com.h2database:h2 -> 1.4.196
++--- org.grails:grails-validation:3.3.2 (*)
++--- com.h2database:h2 -> 1.4.196
+\--- org.glassfish.web:el-impl:2.1.2-b03
+     \--- javax.el:el-api:2.1.2-b03
 
 dockerJava - The Docker Java libraries to be used for this project.
 +--- com.github.docker-java:docker-java:3.0.12
@@ -2455,15 +2429,7 @@ integrationTestCompile - Dependencies for source set 'integration test' (depreca
 +--- org.springframework.boot:spring-boot-starter-logging -> 1.5.8.RELEASE (*)
 +--- org.springframework.boot:spring-boot-autoconfigure -> 1.5.8.RELEASE (*)
 +--- org.grails:grails-core -> 3.3.2 (*)
-+--- org.grails:grails-web-boot -> 3.3.2 (*)
-+--- org.grails:grails-logging -> 3.3.2 (*)
-+--- org.grails:grails-plugin-rest -> 3.3.2 (*)
-+--- org.grails:grails-plugin-databinding -> 3.3.2 (*)
-+--- org.grails:grails-plugin-i18n -> 3.3.2 (*)
 +--- org.grails:grails-plugin-services -> 3.3.2 (*)
-+--- org.grails.plugins:cache -> 4.0.0 (*)
-+--- org.grails.plugins:async -> 3.3.2 (*)
-+--- org.grails.plugins:events -> 3.3.2 (*)
 +--- org.grails.plugins:hibernate5 -> 6.1.8
 |    +--- org.hibernate:hibernate-core:5.1.9.Final -> 5.1.5.Final (*)
 |    +--- org.grails:grails-datastore-web:6.1.8.RELEASE
@@ -2490,6 +2456,7 @@ integrationTestCompile - Dependencies for source set 'integration test' (depreca
 |    |    \--- javax.el:javax.el-api:2.2.4
 |    \--- org.springframework:spring-orm:4.2.3.RELEASE -> 4.3.12.RELEASE (*)
 +--- org.hibernate:hibernate-core:5.1.5.Final (*)
++--- org.grails:grails-validation:3.3.2 (*)
 \--- org.grails:grails-gorm-testing-support -> 1.1.3
      +--- org.codehaus.groovy:groovy:2.4.12 -> 2.4.13
      +--- org.slf4j:slf4j-api:1.7.22 -> 1.7.25
@@ -3058,15 +3025,7 @@ integrationTestCompileClasspath - Compile classpath for source set 'integration 
 +--- org.springframework.boot:spring-boot-starter-logging -> 1.5.8.RELEASE (*)
 +--- org.springframework.boot:spring-boot-autoconfigure -> 1.5.8.RELEASE (*)
 +--- org.grails:grails-core -> 3.3.2 (*)
-+--- org.grails:grails-web-boot -> 3.3.2 (*)
-+--- org.grails:grails-logging -> 3.3.2 (*)
-+--- org.grails:grails-plugin-rest -> 3.3.2 (*)
-+--- org.grails:grails-plugin-databinding -> 3.3.2 (*)
-+--- org.grails:grails-plugin-i18n -> 3.3.2 (*)
 +--- org.grails:grails-plugin-services -> 3.3.2 (*)
-+--- org.grails.plugins:cache -> 4.0.0 (*)
-+--- org.grails.plugins:async -> 3.3.2 (*)
-+--- org.grails.plugins:events -> 3.3.2 (*)
 +--- org.grails.plugins:hibernate5 -> 6.1.8
 |    +--- org.hibernate:hibernate-core:5.1.9.Final -> 5.1.5.Final (*)
 |    +--- org.grails:grails-datastore-web:6.1.8.RELEASE
@@ -3093,6 +3052,7 @@ integrationTestCompileClasspath - Compile classpath for source set 'integration 
 |    |    \--- javax.el:javax.el-api:2.2.4
 |    \--- org.springframework:spring-orm:4.2.3.RELEASE -> 4.3.12.RELEASE (*)
 +--- org.hibernate:hibernate-core:5.1.5.Final (*)
++--- org.grails:grails-validation:3.3.2 (*)
 \--- org.grails:grails-gorm-testing-support -> 1.1.3
      +--- org.codehaus.groovy:groovy:2.4.12 -> 2.4.13
      +--- org.slf4j:slf4j-api:1.7.22 -> 1.7.25
@@ -3667,15 +3627,7 @@ integrationTestRuntime - Runtime dependencies for source set 'integration test' 
 +--- org.springframework.boot:spring-boot-starter-logging -> 1.5.8.RELEASE (*)
 +--- org.springframework.boot:spring-boot-autoconfigure -> 1.5.8.RELEASE (*)
 +--- org.grails:grails-core -> 3.3.2 (*)
-+--- org.grails:grails-web-boot -> 3.3.2 (*)
-+--- org.grails:grails-logging -> 3.3.2 (*)
-+--- org.grails:grails-plugin-rest -> 3.3.2 (*)
-+--- org.grails:grails-plugin-databinding -> 3.3.2 (*)
-+--- org.grails:grails-plugin-i18n -> 3.3.2 (*)
 +--- org.grails:grails-plugin-services -> 3.3.2 (*)
-+--- org.grails.plugins:cache -> 4.0.0 (*)
-+--- org.grails.plugins:async -> 3.3.2 (*)
-+--- org.grails.plugins:events -> 3.3.2 (*)
 +--- org.grails.plugins:hibernate5 -> 6.1.8
 |    +--- org.hibernate:hibernate-core:5.1.9.Final -> 5.1.5.Final (*)
 |    +--- org.grails:grails-datastore-web:6.1.8.RELEASE
@@ -3702,7 +3654,10 @@ integrationTestRuntime - Runtime dependencies for source set 'integration test' 
 |    |    \--- javax.el:javax.el-api:2.2.4
 |    \--- org.springframework:spring-orm:4.2.3.RELEASE -> 4.3.12.RELEASE (*)
 +--- org.hibernate:hibernate-core:5.1.5.Final (*)
++--- org.grails:grails-validation:3.3.2 (*)
 +--- com.h2database:h2 -> 1.4.196
++--- org.glassfish.web:el-impl:2.1.2-b03
+|    \--- javax.el:el-api:2.1.2-b03
 \--- org.grails:grails-gorm-testing-support -> 1.1.3
      +--- org.codehaus.groovy:groovy:2.4.12 -> 2.4.13
      +--- org.slf4j:slf4j-api:1.7.22 -> 1.7.25
@@ -4271,15 +4226,7 @@ integrationTestRuntimeClasspath - Runtime classpath of source set 'integration t
 +--- org.springframework.boot:spring-boot-starter-logging -> 1.5.8.RELEASE (*)
 +--- org.springframework.boot:spring-boot-autoconfigure -> 1.5.8.RELEASE (*)
 +--- org.grails:grails-core -> 3.3.2 (*)
-+--- org.grails:grails-web-boot -> 3.3.2 (*)
-+--- org.grails:grails-logging -> 3.3.2 (*)
-+--- org.grails:grails-plugin-rest -> 3.3.2 (*)
-+--- org.grails:grails-plugin-databinding -> 3.3.2 (*)
-+--- org.grails:grails-plugin-i18n -> 3.3.2 (*)
 +--- org.grails:grails-plugin-services -> 3.3.2 (*)
-+--- org.grails.plugins:cache -> 4.0.0 (*)
-+--- org.grails.plugins:async -> 3.3.2 (*)
-+--- org.grails.plugins:events -> 3.3.2 (*)
 +--- org.grails.plugins:hibernate5 -> 6.1.8
 |    +--- org.hibernate:hibernate-core:5.1.9.Final -> 5.1.5.Final (*)
 |    +--- org.grails:grails-datastore-web:6.1.8.RELEASE
@@ -4306,7 +4253,10 @@ integrationTestRuntimeClasspath - Runtime classpath of source set 'integration t
 |    |    \--- javax.el:javax.el-api:2.2.4
 |    \--- org.springframework:spring-orm:4.2.3.RELEASE -> 4.3.12.RELEASE (*)
 +--- org.hibernate:hibernate-core:5.1.5.Final (*)
++--- org.grails:grails-validation:3.3.2 (*)
 +--- com.h2database:h2 -> 1.4.196
++--- org.glassfish.web:el-impl:2.1.2-b03
+|    \--- javax.el:el-api:2.1.2-b03
 \--- org.grails:grails-gorm-testing-support -> 1.1.3
      +--- org.codehaus.groovy:groovy:2.4.12 -> 2.4.13
      +--- org.slf4j:slf4j-api:1.7.22 -> 1.7.25
@@ -4348,8 +4298,7 @@ integrationTestRuntimeOnly - Runtime only dependencies for source set 'integrati
 No dependencies
 
 profile
-\--- org.grails.profiles:web -> 3.3.1
-     \--- org.grails.profiles:base:3.3.1
+\--- org.grails.profiles:base -> 3.3.1
 
 provided - much like compile, but indicates that you expect the JDK or a container to provide it. It is only available on the compilation classpath, and is not transitive.
 No dependencies
@@ -4885,15 +4834,7 @@ runtime - Runtime dependencies for source set 'main' (deprecated, use 'runtimeOn
 +--- org.springframework.boot:spring-boot-starter-logging -> 1.5.8.RELEASE (*)
 +--- org.springframework.boot:spring-boot-autoconfigure -> 1.5.8.RELEASE (*)
 +--- org.grails:grails-core -> 3.3.2 (*)
-+--- org.grails:grails-web-boot -> 3.3.2 (*)
-+--- org.grails:grails-logging -> 3.3.2 (*)
-+--- org.grails:grails-plugin-rest -> 3.3.2 (*)
-+--- org.grails:grails-plugin-databinding -> 3.3.2 (*)
-+--- org.grails:grails-plugin-i18n -> 3.3.2 (*)
 +--- org.grails:grails-plugin-services -> 3.3.2 (*)
-+--- org.grails.plugins:cache -> 4.0.0 (*)
-+--- org.grails.plugins:async -> 3.3.2 (*)
-+--- org.grails.plugins:events -> 3.3.2 (*)
 +--- org.grails.plugins:hibernate5 -> 6.1.8
 |    +--- org.hibernate:hibernate-core:5.1.9.Final -> 5.1.5.Final (*)
 |    +--- org.grails:grails-datastore-web:6.1.8.RELEASE
@@ -4920,7 +4861,10 @@ runtime - Runtime dependencies for source set 'main' (deprecated, use 'runtimeOn
 |    |    \--- javax.el:javax.el-api:2.2.4
 |    \--- org.springframework:spring-orm:4.2.3.RELEASE -> 4.3.12.RELEASE (*)
 +--- org.hibernate:hibernate-core:5.1.5.Final (*)
-\--- com.h2database:h2 -> 1.4.196
++--- org.grails:grails-validation:3.3.2 (*)
++--- com.h2database:h2 -> 1.4.196
+\--- org.glassfish.web:el-impl:2.1.2-b03
+     \--- javax.el:el-api:2.1.2-b03
 
 runtimeClasspath - Runtime classpath of source set 'main'.
 +--- project :omar-core-plugin
@@ -5453,15 +5397,7 @@ runtimeClasspath - Runtime classpath of source set 'main'.
 +--- org.springframework.boot:spring-boot-starter-logging -> 1.5.8.RELEASE (*)
 +--- org.springframework.boot:spring-boot-autoconfigure -> 1.5.8.RELEASE (*)
 +--- org.grails:grails-core -> 3.3.2 (*)
-+--- org.grails:grails-web-boot -> 3.3.2 (*)
-+--- org.grails:grails-logging -> 3.3.2 (*)
-+--- org.grails:grails-plugin-rest -> 3.3.2 (*)
-+--- org.grails:grails-plugin-databinding -> 3.3.2 (*)
-+--- org.grails:grails-plugin-i18n -> 3.3.2 (*)
 +--- org.grails:grails-plugin-services -> 3.3.2 (*)
-+--- org.grails.plugins:cache -> 4.0.0 (*)
-+--- org.grails.plugins:async -> 3.3.2 (*)
-+--- org.grails.plugins:events -> 3.3.2 (*)
 +--- org.grails.plugins:hibernate5 -> 6.1.8
 |    +--- org.hibernate:hibernate-core:5.1.9.Final -> 5.1.5.Final (*)
 |    +--- org.grails:grails-datastore-web:6.1.8.RELEASE
@@ -5488,7 +5424,10 @@ runtimeClasspath - Runtime classpath of source set 'main'.
 |    |    \--- javax.el:javax.el-api:2.2.4
 |    \--- org.springframework:spring-orm:4.2.3.RELEASE -> 4.3.12.RELEASE (*)
 +--- org.hibernate:hibernate-core:5.1.5.Final (*)
-\--- com.h2database:h2 -> 1.4.196
++--- org.grails:grails-validation:3.3.2 (*)
++--- com.h2database:h2 -> 1.4.196
+\--- org.glassfish.web:el-impl:2.1.2-b03
+     \--- javax.el:el-api:2.1.2-b03
 
 runtimeElements - Elements of runtime for main. (n)
 No dependencies
@@ -6030,15 +5969,7 @@ testCompile - Dependencies for source set 'test' (deprecated, use 'testImplement
 +--- org.springframework.boot:spring-boot-starter-logging -> 1.5.8.RELEASE (*)
 +--- org.springframework.boot:spring-boot-autoconfigure -> 1.5.8.RELEASE (*)
 +--- org.grails:grails-core -> 3.3.2 (*)
-+--- org.grails:grails-web-boot -> 3.3.2 (*)
-+--- org.grails:grails-logging -> 3.3.2 (*)
-+--- org.grails:grails-plugin-rest -> 3.3.2 (*)
-+--- org.grails:grails-plugin-databinding -> 3.3.2 (*)
-+--- org.grails:grails-plugin-i18n -> 3.3.2 (*)
 +--- org.grails:grails-plugin-services -> 3.3.2 (*)
-+--- org.grails.plugins:cache -> 4.0.0 (*)
-+--- org.grails.plugins:async -> 3.3.2 (*)
-+--- org.grails.plugins:events -> 3.3.2 (*)
 +--- org.grails.plugins:hibernate5 -> 6.1.8
 |    +--- org.hibernate:hibernate-core:5.1.9.Final -> 5.1.5.Final (*)
 |    +--- org.grails:grails-datastore-web:6.1.8.RELEASE
@@ -6065,6 +5996,7 @@ testCompile - Dependencies for source set 'test' (deprecated, use 'testImplement
 |    |    \--- javax.el:javax.el-api:2.2.4
 |    \--- org.springframework:spring-orm:4.2.3.RELEASE -> 4.3.12.RELEASE (*)
 +--- org.hibernate:hibernate-core:5.1.5.Final (*)
++--- org.grails:grails-validation:3.3.2 (*)
 \--- org.grails:grails-gorm-testing-support -> 1.1.3
      +--- org.codehaus.groovy:groovy:2.4.12 -> 2.4.13
      +--- org.slf4j:slf4j-api:1.7.22 -> 1.7.25
@@ -6633,15 +6565,7 @@ testCompileClasspath - Compile classpath for source set 'test'.
 +--- org.springframework.boot:spring-boot-starter-logging -> 1.5.8.RELEASE (*)
 +--- org.springframework.boot:spring-boot-autoconfigure -> 1.5.8.RELEASE (*)
 +--- org.grails:grails-core -> 3.3.2 (*)
-+--- org.grails:grails-web-boot -> 3.3.2 (*)
-+--- org.grails:grails-logging -> 3.3.2 (*)
-+--- org.grails:grails-plugin-rest -> 3.3.2 (*)
-+--- org.grails:grails-plugin-databinding -> 3.3.2 (*)
-+--- org.grails:grails-plugin-i18n -> 3.3.2 (*)
 +--- org.grails:grails-plugin-services -> 3.3.2 (*)
-+--- org.grails.plugins:cache -> 4.0.0 (*)
-+--- org.grails.plugins:async -> 3.3.2 (*)
-+--- org.grails.plugins:events -> 3.3.2 (*)
 +--- org.grails.plugins:hibernate5 -> 6.1.8
 |    +--- org.hibernate:hibernate-core:5.1.9.Final -> 5.1.5.Final (*)
 |    +--- org.grails:grails-datastore-web:6.1.8.RELEASE
@@ -6668,6 +6592,7 @@ testCompileClasspath - Compile classpath for source set 'test'.
 |    |    \--- javax.el:javax.el-api:2.2.4
 |    \--- org.springframework:spring-orm:4.2.3.RELEASE -> 4.3.12.RELEASE (*)
 +--- org.hibernate:hibernate-core:5.1.5.Final (*)
++--- org.grails:grails-validation:3.3.2 (*)
 \--- org.grails:grails-gorm-testing-support -> 1.1.3
      +--- org.codehaus.groovy:groovy:2.4.12 -> 2.4.13
      +--- org.slf4j:slf4j-api:1.7.22 -> 1.7.25
@@ -7242,15 +7167,7 @@ testRuntime - Runtime dependencies for source set 'test' (deprecated, use 'testR
 +--- org.springframework.boot:spring-boot-starter-logging -> 1.5.8.RELEASE (*)
 +--- org.springframework.boot:spring-boot-autoconfigure -> 1.5.8.RELEASE (*)
 +--- org.grails:grails-core -> 3.3.2 (*)
-+--- org.grails:grails-web-boot -> 3.3.2 (*)
-+--- org.grails:grails-logging -> 3.3.2 (*)
-+--- org.grails:grails-plugin-rest -> 3.3.2 (*)
-+--- org.grails:grails-plugin-databinding -> 3.3.2 (*)
-+--- org.grails:grails-plugin-i18n -> 3.3.2 (*)
 +--- org.grails:grails-plugin-services -> 3.3.2 (*)
-+--- org.grails.plugins:cache -> 4.0.0 (*)
-+--- org.grails.plugins:async -> 3.3.2 (*)
-+--- org.grails.plugins:events -> 3.3.2 (*)
 +--- org.grails.plugins:hibernate5 -> 6.1.8
 |    +--- org.hibernate:hibernate-core:5.1.9.Final -> 5.1.5.Final (*)
 |    +--- org.grails:grails-datastore-web:6.1.8.RELEASE
@@ -7277,7 +7194,10 @@ testRuntime - Runtime dependencies for source set 'test' (deprecated, use 'testR
 |    |    \--- javax.el:javax.el-api:2.2.4
 |    \--- org.springframework:spring-orm:4.2.3.RELEASE -> 4.3.12.RELEASE (*)
 +--- org.hibernate:hibernate-core:5.1.5.Final (*)
++--- org.grails:grails-validation:3.3.2 (*)
 +--- com.h2database:h2 -> 1.4.196
++--- org.glassfish.web:el-impl:2.1.2-b03
+|    \--- javax.el:el-api:2.1.2-b03
 \--- org.grails:grails-gorm-testing-support -> 1.1.3
      +--- org.codehaus.groovy:groovy:2.4.12 -> 2.4.13
      +--- org.slf4j:slf4j-api:1.7.22 -> 1.7.25
@@ -7846,15 +7766,7 @@ testRuntimeClasspath - Runtime classpath of source set 'test'.
 +--- org.springframework.boot:spring-boot-starter-logging -> 1.5.8.RELEASE (*)
 +--- org.springframework.boot:spring-boot-autoconfigure -> 1.5.8.RELEASE (*)
 +--- org.grails:grails-core -> 3.3.2 (*)
-+--- org.grails:grails-web-boot -> 3.3.2 (*)
-+--- org.grails:grails-logging -> 3.3.2 (*)
-+--- org.grails:grails-plugin-rest -> 3.3.2 (*)
-+--- org.grails:grails-plugin-databinding -> 3.3.2 (*)
-+--- org.grails:grails-plugin-i18n -> 3.3.2 (*)
 +--- org.grails:grails-plugin-services -> 3.3.2 (*)
-+--- org.grails.plugins:cache -> 4.0.0 (*)
-+--- org.grails.plugins:async -> 3.3.2 (*)
-+--- org.grails.plugins:events -> 3.3.2 (*)
 +--- org.grails.plugins:hibernate5 -> 6.1.8
 |    +--- org.hibernate:hibernate-core:5.1.9.Final -> 5.1.5.Final (*)
 |    +--- org.grails:grails-datastore-web:6.1.8.RELEASE
@@ -7881,7 +7793,10 @@ testRuntimeClasspath - Runtime classpath of source set 'test'.
 |    |    \--- javax.el:javax.el-api:2.2.4
 |    \--- org.springframework:spring-orm:4.2.3.RELEASE -> 4.3.12.RELEASE (*)
 +--- org.hibernate:hibernate-core:5.1.5.Final (*)
++--- org.grails:grails-validation:3.3.2 (*)
 +--- com.h2database:h2 -> 1.4.196
++--- org.glassfish.web:el-impl:2.1.2-b03
+|    \--- javax.el:el-api:2.1.2-b03
 \--- org.grails:grails-gorm-testing-support -> 1.1.3
      +--- org.codehaus.groovy:groovy:2.4.12 -> 2.4.13
      +--- org.slf4j:slf4j-api:1.7.22 -> 1.7.25
