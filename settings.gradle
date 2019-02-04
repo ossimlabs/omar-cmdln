@@ -4,10 +4,7 @@ pluginManagement {
     gradlePluginPortal()
   }
 }
-def final O2_DEV_HOME = System.getenv('O2_DEV_HOME')
 
-if ( O2_DEV_HOME ) {
-   include 'omar-cmdln-app'
+include 'omar-cmdln-app'
 
-   project(':omar-cmdln-app').projectDir = "${O2_DEV_HOME}/omar-cmdln/apps/omar-cmdln-app" as File
-}
+project(':omar-cmdln-app').projectDir = "${rootProject.projectDir}/apps/omar-cmdln-app" as File
