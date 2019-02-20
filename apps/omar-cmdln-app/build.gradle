@@ -1,33 +1,19 @@
 buildscript {
-  ext {
-    grailsVersion = project.grailsVersion
-    baseImage = ""
-    hasJar = { true }
+
+  repositories {
+    mavenLocal()
+    maven { url ossimMavenProxy }
   }
-    if(System.env.OMAR_COMMON_PROPERTIES)
-    {
-      apply from: System.env.OMAR_COMMON_PROPERTIES
-    }
-    repositories {
-      mavenLocal()
-      maven { url "${ossimMavenProxy}" }
-      if( !System.env.WWW_CONNECTED || Boolean.parseBoolean( System.env.WWW_CONNECTED ) ) {
-        maven { url "https://repo.grails.org/grails/core" }
-      }
-    }
-    dependencies {
-        classpath "org.grails:grails-gradle-plugin:$grailsVersion"
-        classpath "org.grails.plugins:hibernate5:${gormVersion-".RELEASE"}"
-    }
+  dependencies {
+      classpath "org.grails:grails-gradle-plugin:$grailsVersion"
+      classpath "org.grails.plugins:hibernate5:${gormVersion-".RELEASE"}"
+      classpath 'io.ossim:gradleDefaults:1.4-SNAPSHOT'
+  }
 }
 
 plugins {
   id "com.github.ben-manes.versions" version "0.17.0"
 }
-
-version "${buildVersion}-${buildVersionTag}"
-
-group "omar.cmdln.app"
 
 apply plugin:"eclipse"
 apply plugin:"idea"
@@ -35,20 +21,24 @@ apply plugin:"org.grails.grails-core"
 apply plugin: "maven-publish"
 apply plugin: "maven"
 
+io.ossim.gradleDefaults.Variables.setAdditionalVariables(project)
+io.ossim.gradleDefaults.Variables.setVersionVariables(project)
+version "${buildVersion}-${buildVersionTag}"
+jarDestination = "${projectDir}/build/libs/${project.name}-${version}.jar"
+io.ossim.gradleDefaults.Publications.addPublication(project, groupName, name, "${buildVersion}-${buildVersionTag}")
+io.ossim.gradleDefaults.Publications.addRepository(project, mavenPublishUrl, mavenRepoUsername, mavenRepoPassword)
+
 repositories {
     mavenLocal()
-    maven { url "${ossimMavenProxy}" }
-    if( !System.env.WWW_CONNECTED || Boolean.parseBoolean( System.env.WWW_CONNECTED ) ) {
-      maven { url "https://repo.grails.org/grails/core" }
-    }
+    maven { url ossimMavenProxy }
 }
 
 dependencies {
-  compile "io.ossim.omar.plugins:omar-core-plugin:+"
-  compile "io.ossim.omar.plugins:omar-hibernate-spatial-plugin:+"
-  compile "io.ossim.omar.plugins:omar-raster-plugin:+"
-  compile "io.ossim.omar.plugins:omar-video-plugin:+"
-  compile "io.ossim.omar.plugins:omar-stager-plugin:+"
+  compile "io.ossim.omar.plugins:omar-core-plugin:${latestGradleIdentifier}"
+  compile "io.ossim.omar.plugins:omar-hibernate-spatial-plugin:${latestGradleIdentifier}"
+  compile "io.ossim.omar.plugins:omar-raster-plugin:${latestGradleIdentifier}"
+  compile "io.ossim.omar.plugins:omar-video-plugin:${latestGradleIdentifier}"
+  compile "io.ossim.omar.plugins:omar-stager-plugin:${latestGradleIdentifier}"
 
   compile "org.springframework.boot:spring-boot-starter-logging"
   compile "org.springframework.boot:spring-boot-autoconfigure"
@@ -74,7 +64,7 @@ dependencies {
   runtime "com.h2database:h2"
   runtime "org.apache.tomcat:tomcat-jdbc"
   testCompile "org.grails:grails-gorm-testing-support"
-  // testCompile "org.grails:grails-web-testing-support"
+  // testCompile "org.grails:grails-web-testing-support:3.2.7"
   testCompile "org.grails.plugins:geb"
 }
 
