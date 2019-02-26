@@ -18,17 +18,15 @@ plugins {
 apply plugin:"eclipse"
 apply plugin:"idea"
 apply plugin:"org.grails.grails-core"
-apply plugin: "maven"
-
-io.ossim.gradleDefaults.Variables.setAdditionalVariables(project)
-io.ossim.gradleDefaults.Variables.setVersionVariables(project)
-version "${buildVersion}-${buildVersionTag}"
-jarDestination = "${projectDir}/build/libs/${project.name}-${version}.jar"
 
 repositories {
     mavenLocal()
     maven { url ossimMavenProxy }
 }
+
+io.ossim.gradleDefaults.Variables.setAdditionalVariables(project)
+io.ossim.gradleDefaults.Variables.setVersionVariables(project)
+version "${buildVersion}-${buildVersionTag}"
 
 dependencies {
   compile "io.ossim.omar.plugins:omar-core-plugin:${latestGradleIdentifier}"
